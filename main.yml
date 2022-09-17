@@ -1,0 +1,13 @@
+      - name: 🦑 Personal metrics (anilist)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.personal.anilist.svg
+          token: NOT_NEEDED
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_anilist: yes
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, characters
+          plugin_anilist_limit: 4
+          plugin_anilist_limit_characters: 10
+          plugin_anilist_shuffle: true
