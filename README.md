@@ -2,5 +2,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=korkihasan&&show_icons=true&title_color=874CD7&icon_color=874CD7&text_color=daf7dc&bg_color=22272e">
 
+<img src="https://cdn.discordapp.com/attachments/817510236742877194/820752013087997992/kurallar.gif"
+
 
 
